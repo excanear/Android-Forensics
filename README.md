@@ -1192,75 +1192,6 @@ adb shell su -c "sqlite3 msgstore.db .dump" > recovered.sql
 
 ---
 
-## 📥 Instalação
-
-### Método 1: Instalação Rápida (Executável)
-
-1. **Download do Release**
-   ```
-   Baixe a última versão de:
-   https://github.com/seu-repo/android-forensics/releases
-   ```
-
-2. **Extração**
-   ```powershell
-   Expand-Archive -Path AndroidForensics-v3.0.zip -DestinationPath C:\AndroidForensics
-   ```
-
-3. **Instalação do ADB** (se não instalado)
-   ```powershell
-   # O instalador irá detectar e oferecer instalação automática
-   .\AndroidForensics.exe --install-adb
-   ```
-
-4. **Primeira Execução**
-   ```powershell
-   cd C:\AndroidForensics
-   .\AndroidForensicsGUI.exe
-   ```
-
-### Método 2: Compilação do Código-Fonte
-
-1. **Clone do Repositório**
-   ```powershell
-   git clone https://github.com/seu-repo/android-forensics.git
-   cd android-forensics
-   ```
-
-2. **Restaurar Dependências**
-   ```powershell
-   dotnet restore AndroidForensicsTool.sln
-   ```
-
-3. **Compilar**
-   ```powershell
-   dotnet build AndroidForensicsTool.sln --configuration Release
-   ```
-
-4. **Executar**
-   ```powershell
-   cd AndroidForensicsGUI\bin\Release\net8.0-windows
-   .\AndroidForensicsGUI.exe
-   ```
-
-### Verificação de Instalação
-
-```powershell
-# Verificar .NET
-dotnet --version
-# Deve retornar: 8.0.x ou superior
-
-# Verificar ADB
-adb version
-# Deve retornar: Android Debug Bridge version x.x.x
-
-# Verificar dispositivos conectados
-adb devices
-# Deve listar dispositivos conectados
-```
-
----
-
 ## 🎮 Guia de Uso
 
 ### Passo 1: Preparação do Dispositivo Android
@@ -1875,54 +1806,6 @@ Exceção: Modo de recuperação pode gravar temporariamente.
 
 ---
 
-## 📞 Suporte
-
-### Comunidade e Recursos
-
-- 📖 **Documentação:** Este README
-- 💬 **Forum:** https://forum.androidforensics.com
-- 🐛 **Issues:** https://github.com/seu-repo/issues
-- 📧 **Email:** support@androidforensics.com
-- 💼 **LinkedIn:** linkedin.com/company/androidforensics
-
-### Treinamento e Certificação
-
-**Cursos Disponíveis:**
-1. **Android Forensics Essentials** (8h)
-   - Fundamentos de forense Android
-   - Uso da ferramenta
-   - Análises básicas
-
-2. **Advanced Android Forensics** (16h)
-   - Módulos avançados
-   - Análise de malware
-   - Casos práticos
-
-3. **Expert Forensics** (24h)
-   - Recuperação de dados
-   - Timeline forense
-   - Investigações complexas
-
-**Certificação:**
-- 🎓 Certified Android Forensic Examiner (CAFE)
-- 🎓 Advanced Mobile Forensics Specialist (AMFS)
-
-### Suporte Técnico
-
-**Planos:**
-- 🆓 **Community:** Forum e documentação
-- 💼 **Professional:** Email support (48h)
-- 🏢 **Enterprise:** 24/7 support + consultoria
-
-**Contato:**
-```
-Email: support@androidforensics.com
-Phone: +55 (11) 1234-5678
-WhatsApp: +55 (11) 98765-4321
-```
-
----
-
 ## 📊 Estatísticas do Projeto
 
 ```
@@ -2024,10 +1907,7 @@ esta ferramenta em investigações.
 ## 👥 Créditos e Agradecimentos
 
 **Desenvolvido por:**
-- Android Forensics Team
-- Especialistas em segurança cibernética
-- Pesquisadores em forense digital
-- Engenheiros de machine learning
+- Escanearcpl
 
 **Tecnologias Utilizadas:**
 - Microsoft .NET Team
@@ -2036,12 +1916,6 @@ esta ferramenta em investigações.
 - Chart.js Contributors
 - Plotly Team
 - Three.js Community
-
-**Agradecimentos Especiais:**
-- Comunidade de forense digital
-- Pesquisadores de segurança
-- Beta testers e early adopters
-- Organizações parceiras
 
 ---
 
@@ -2097,19 +1971,6 @@ esta ferramenta em investigações.
 + 80+ tipos de análises
 + 17 módulos profissionais
 + 100+ fontes de dados
-```
-
----
-
-## 📧 Contato
-
-Para mais informações, suporte ou licenciamento:
-
-**Website:** https://androidforensics.com  
-**Email:** contact@androidforensics.com  
-**GitHub:** https://github.com/seu-repo/android-forensics  
-**LinkedIn:** https://linkedin.com/company/androidforensics  
-**Twitter:** @AndroidForensic  
 
 ---
 
@@ -2123,7 +1984,7 @@ Para mais informações, suporte ou licenciamento:
 ![AI Powered](https://img.shields.io/badge/AI-Powered-green.svg)
 ![Security](https://img.shields.io/badge/Security-Military%20Grade-red.svg)
 
-**© 2025 Android Forensics Team. Todos os direitos reservados.**
+**© 2026 Android Forensics Team. Todos os direitos reservados.**
 
 *"A verdade está nos dados"*
 
