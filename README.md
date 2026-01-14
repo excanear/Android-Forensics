@@ -1984,7 +1984,9 @@ esta ferramenta em investigações.
 ![AI Powered](https://img.shields.io/badge/AI-Powered-green.svg)
 ![Security](https://img.shields.io/badge/Security-Military%20Grade-red.svg)
 
-**© 2026 Android Forensics Team. Todos os direitos reservados.**
+**© 2026 Android Forensics Tool. Todos os direitos reservados.**
+
+**By Escanearcpl Developer**
 
 *"A verdade está nos dados"*
 
